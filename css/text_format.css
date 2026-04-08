@@ -1,0 +1,30 @@
+.t_transform_upper{
+    text-transform: uppercase;
+    text-align: center;
+}
+.t_transform_lower{
+    text-transform: lowercase;
+    text-align: center;
+}
+.t_transform_capitalize{
+    text-transform: capitalize;
+    text-align: center;
+}
+.t_right{
+    text-align: right;
+}
+.t_decor_underline{
+    text-decoration: underline;
+}
+.t_decor_overline{
+    text-decoration: overline;
+}
+.t_decor_line_throuth{
+    text-decoration: line-through;
+}
+.t_decor{
+    text-decoration: underline overline line-through;
+}
+.t_indent{
+    text-indent: 120px;
+}

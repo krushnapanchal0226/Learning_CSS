@@ -1,0 +1,41 @@
+.heading1{
+    color: blue;
+    background-color: yellow;
+    text-align: center;
+}
+.heading2{
+    color: black;
+    background-color: yellow;
+    text-align: center;
+}
+.para{
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+#head1{
+    color: black;
+    background-color: orange;
+    text-align: center;
+    font-size: 25px;
+}
+.head2{
+    color: rgb(18, 208, 221);
+    background-color: rgb(86, 0, 94);
+    text-align: center;
+    font-size: 25px;   
+}
+.head_about{
+    color: darkorange;
+    text-align: center;
+}
+.head_size{
+    font-size: 45px
+}
+#head_about{
+    color: darkorange;
+    text-align: center;
+}
+#head_about_size{
+    font-size: 60px;
+}
