@@ -28,3 +28,11 @@
 .t_indent{
     text-indent: 120px;
 }
+.t_letter_space{
+    letter-spacing: 15px;
+}
+.t_word_space{
+    word-spacing: 80px;
+}.para_line_height{
+    line-height: 23;
+}
