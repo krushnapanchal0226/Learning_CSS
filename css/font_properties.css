@@ -1,0 +1,37 @@
+.f_family1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.f_family2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.f_family3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lawngreen;
+}
+.f_family4{
+    font-family: cursive;
+}
+.f_weight{
+    font-size: 150px;
+    font-weight: 1000;
+}
+.bgliner{
+    font-size: 100px;
+    text-align: center;
+    background: linear-gradient(to right,rgb(161, 24, 161),white);
+}
+.bgradial{
+    height: 300px;
+    text-align: center;
+    font-size: 100px;
+    background: radial-gradient(rgb(56, 109, 207),white,rgb(218, 62, 88),white);
+}
+.bgconic{
+    height: 300px;
+    font-size: 100px;
+    text-align: center;
+    background: conic-gradient(rgb(56, 109, 207),white,rgb(218, 62, 88),white);
+}
+div{
+    margin-bottom: 40px;
+}

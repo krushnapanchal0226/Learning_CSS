@@ -70,3 +70,41 @@
     width: 400px;
     height: 400px;
 }
+.img_border{
+    border: 14px solid rgb(104, 30, 30);
+    width: 400px;
+    height: 500px;
+}
+.img_border1{
+    border: 14px dashed rgb(104, 30, 30);
+    width: 400px;
+    height: 500px;
+}
+.img_border2{
+    border: 10px groove blue;
+    width: 400px;
+    height: 500px;
+}
+.img_r_border{
+    border: 10px double gray;
+    border-radius: 20px 30px 20px 30px;
+    width: 300px;
+    height: 400px;
+}
+.img_r_border2{
+    border: 10px double gray;
+    border-radius: 40px 20px;
+    width: 300px;
+    height: 400px;
+    /* border-top-left-radius: 60px; */
+}
+.img_c_border{
+    border: 14px solid;
+    /* border-top-color: red;
+    border-right-color: blue;
+    border-bottom-color: red;
+    border-left-color: blue; */
+    border-color: aqua black aqua black;
+    width: 300px;
+    height: 400px;
+}

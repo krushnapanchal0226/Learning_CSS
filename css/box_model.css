@@ -1,0 +1,23 @@
+.b_model{
+    border: 5px solid orangered;
+    /* padding: 30px; */
+    /* padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 60px; */
+    /* padding: 50px 60px 50px 60px; */
+    padding: 20px 30px;
+    margin: 50px;
+}
+.b_model1{
+    border: 7px solid black;
+    padding: 30px 40px;
+    margin: 20px 40px 40px 40px;
+}
+.img_model{
+    border: 8px solid orangered;
+    padding: 10px 20px;
+    margin: 50px;
+    width: 200px;
+    height: 300px;
+}
