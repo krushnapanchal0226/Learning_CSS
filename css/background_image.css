@@ -1,0 +1,10 @@
+body{
+    background-color:violet;
+    background-image: url("/images/pexels-markusspiske-6212801.jpg");
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    margin-left: 1000px;
+    padding: 50px;
+}
