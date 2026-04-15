@@ -1,0 +1,44 @@
+.box{
+    background-color: violet;
+    width: 200px;
+    height: 150px;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    /* Image numbering center */
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    border: 2px solid rgb(3, 0, 0);
+    transition: transform 1s linear 500ms;
+}
+.container{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    /* space-between,space-evenly */
+}
+.box1:hover{
+    transform: translate(125px, 125px);
+}
+.box2:hover{
+    transform: translateX(40px);
+}
+.box3:hover{
+    transform: translateY(15px);
+}
+.box4:hover{
+    transform: rotate(360deg);
+}
+.box5:hover{
+    transform: skew(10deg, 10deg);
+}
+.box6:hover{
+    transform: scale(2);
+}
+.box7:hover{
+    transform: scale(1.2) rotate(60deg) translateY(50px);
+}

@@ -1,0 +1,40 @@
+/* pseudo and class element */
+h1:hover{
+    color: yellow;
+    background-color: black;
+    font-size: 60px;
+    text-shadow: 5px 6px 2px orangered;
+    text-align: center;
+
+}
+.heading_1:hover{
+    color: aquamarine;
+}
+/* active class */
+h3:active{
+    color: violet;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+/* focus */
+input:focus{
+    background-color: yellow;
+    border: 5px solid black;
+}
+/* visited */
+a:visited{
+    color: brown;
+}
+/* pseudo element */
+p::first-letter{
+    color: rgb(234, 0, 255);
+    font-size: 30px;
+}
+p::selection{
+    color: blueviolet;
+    background-color: yellow;
+}
+p::first-line{
+    color: green;
+}

@@ -5,6 +5,10 @@
     font-size: 45px;
     margin: 10px;
     padding: 10px;
+    /* Image numbering center */
+    display: flex;
+    justify-content: center;  
+    align-items: center;
 }
 .flex_container{
     list-style: none;
