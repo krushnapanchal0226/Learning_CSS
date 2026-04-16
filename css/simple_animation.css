@@ -1,0 +1,21 @@
+div{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: yellow;
+    position: relative;
+    animation: movingbox;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    animation-direction: alternate-reverse;
+}
+@keyframes movingbox{
+    0%{background-color: red;left: 0px;top: 0px;}
+    25%{background-color: rgb(68, 0, 255);left: 300px;top: 0px;}
+    50%{background-color: rgb(157, 255, 0);left: 300px;top: 300px;}
+    75%{background-color: rgb(255, 0, 212);left: 0px;top: 300px;}
+    100%{background-color: red;left: 0px;top: 0px;}
+}
