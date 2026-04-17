@@ -1,0 +1,18 @@
+img{
+    width: 100%;
+    height: auto;
+}
+@media(max-width:375px){
+.code1{
+    display: block;
+    background-color: gold;
+}
+.code2{
+    display: none;
+    background-color: blue;
+}
+h1{
+    color: blue;
+    text-shadow: 2px 1px red;
+}
+}
